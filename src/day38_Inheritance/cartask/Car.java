@@ -36,6 +36,7 @@ public class Car {
                 ", miles=" + miles +
                 '}';
     }
+
 }
 /*carTask:
         Create a class called Car
