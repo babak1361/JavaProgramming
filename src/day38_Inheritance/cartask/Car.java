@@ -1,11 +1,11 @@
 package day38_Inheritance.cartask;
 
 public class Car {
-    String brand, model;
-    int year;
-    double price;
-    String color;
-    double miles;
+     public String brand, model;
+   public int year;
+   public double price;
+   public String color;
+   public double miles;
 
     public Car(String brand, String model, int year, double price, String color, double miles) {
         this.brand = brand;
@@ -45,19 +45,6 @@ public class Car {
         instance methods:
         start(), drive(),toString()
 
-        Create the following sub classes of Car:
-        1. Toyota:
-        extra methods:
-        reliable()
-
-        2. BMW:
-        extra methods:
-        breaksDown()
-        racing()
-
-        3. Tesla:
-        extra methods:
-        autoPilot();
 
  */
 
