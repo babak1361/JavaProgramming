@@ -2,13 +2,13 @@ package day38_Inheritance.cartask;
 
 public class Car {
      public String brand, model;
-   public int year;
-   public double price;
-   public String color;
-   public double miles;
+     public int year;
+     public double price;
+     public String color;
+     public int miles;
 
 
-    public Car(String brand, String model, int year, double price, String color, double miles) {
+    public Car(String brand, String model, int year, double price, String color, int miles) {
         this.brand = brand;
         this.model = model;
         this.year = year;
@@ -18,12 +18,13 @@ public class Car {
     }
 
     public void start(){
-        System.out.println(" the car is starting");
+        System.out.println(brand+" "+model+ " the car is starting");
     }
 
     public void drive(){
-        System.out.println("this car is riving");
+        System.out.println(brand+" "+model+ "this car is riving");
     }
+
 
     public String toString() {
         return "Car{" +
